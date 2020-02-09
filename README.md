@@ -51,6 +51,7 @@ https://blog.daliansky.net/macOS-Catalina-10.15.3-19D76-Release-version-with-Clo
 + USBInjectAll.kext&nbsp;是根据主板定制好的，不要更换成其他
 + 我认为电池电量是不准的
 + 如果你想进入acer bios的高级选项，可以进行这个骚操作：f2进入bios，按住fn+tab三秒，保存退出，再次f2进入bios，就可以看见Advance选项和power选项
++ 请把序列号信息换成你自己的![raw1](./RAW/RAW1.png)
 
 ## 说明:
 
@@ -66,5 +67,5 @@ SSDT-HRTfix.aml HPET,RTC,TIM三合一修复补丁(主要IRQ修复)
 
 ---
 
-![pic1](./RAW/RAW2.png)
-![pic2](./RAW/RAW3.png)
+![raw2](./RAW/RAW2.png)
+![raw3](./RAW/RAW3.png)
