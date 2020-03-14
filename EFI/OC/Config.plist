@@ -1123,6 +1123,7 @@
 		<array>
 			<string>HfsPlus.efi</string>
 			<string>ApfsDriverLoader.efi</string>
+			<string>FwRuntimeServices.efi</string>
 		</array>
 		<key>Audio</key>
 		<dict>
