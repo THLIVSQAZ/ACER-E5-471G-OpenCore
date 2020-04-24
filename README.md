@@ -27,10 +27,10 @@ VGA&radic;
 
 摄像头&radic;
 
-睡眠&radic;
-
 ## 不工作:
 wifi&蓝牙&times; (可以在咸鱼上收一个BCM94352HMB，wifi直接免驱，蓝牙放入三个kext就可以了)
+
+睡眠&times;
 
 多点触控I2C&times;（ACPI缺少过多）
 
