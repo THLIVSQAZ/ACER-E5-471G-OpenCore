@@ -37,7 +37,7 @@ wifi&蓝牙&times; (可以在咸鱼上收一个BCM94352HMB，wifi直接免驱，
 读卡器&times;
 
 ## 安装镜像:
-https://blog.daliansky.net/macOS-Catalina-10.15.3-19D76-Release-version-with-Clover-5103-original-image-Double-EFI-Version.html
+https://blog.daliansky.net/macOS-BigSur-11.1-20C69-Release-version-with-Clover-5127-original-image-Double-EFI-Version-UEFI-and-MBR.html
 
 ## 安装方法:
 安装黑果小兵的方法把镜像刻录到u盘，然后挂载EFI分区，将这个github的EFI文件夹直接替换，然后引导u盘安装
@@ -67,5 +67,4 @@ SSDT-HRTfix.aml HPET,RTC,TIM三合一修复补丁(主要IRQ修复)
 
 ---
 
-![raw2](./RAW/raw2.png)
-![raw3](./RAW/raw3.png)
+![raw3](./RAW/raw2.png)
