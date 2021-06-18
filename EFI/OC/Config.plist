@@ -54,6 +54,14 @@
 				<key>Path</key>
 				<string>SSDT-HRTfix.aml</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>nvidia disable</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-NDGP_OFF.aml</string>
+			</dict>
 		</array>
 		<key>Delete</key>
 		<array>
@@ -1423,7 +1431,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 debug=0x100 -wegnoegpu slide=129</string>
+				<string>-v keepsyms=1 debug=0x100</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
