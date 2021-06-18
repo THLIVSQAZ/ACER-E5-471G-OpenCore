@@ -32,8 +32,6 @@ wifi&蓝牙&times; (可以在咸鱼上收一个BCM94352HMB，wifi直接免驱，
 
 睡眠&times;
 
-多点触控I2C&times;（ACPI缺少过多）
-
 读卡器&times;
 
 ## 安装镜像:
@@ -44,10 +42,8 @@ https://blog.daliansky.net/macOS-BigSur-11.1-20C69-Release-version-with-Clover-5
 
 ## 注意：
  **WARNING⚠️** 请勿用于引导windows(acpi部分不规范)
-+ 触摸板请在bios里面把驱动改成basic，不要用Advance,不然键盘和触摸板会挂
 + 如果你没有换无线网卡，请把EFI/OC/Kexts/下的&nbsp;&nbsp;BrcmBluetoothInjector.kext&nbsp;&nbsp;BrcmFirmwareData.kext BrcmPatchRAM3.kext&nbsp;&nbsp;删掉，免得启动不了
-+ VoodooPS2Controller.kext&nbsp;这个驱动不建议用acidanthera的新版，触摸板会不可用
-+ 有一定概率会在连接hdmi启动时亮度重置，原因未知
++ 有一定概率会在连接hdmi黑屏,反复插拔即可
 + USBInjectAll.kext&nbsp;是根据主板定制好的，不要更换成其他
 + 我认为电池电量是不准的
 + 如果你想进入acer bios的高级选项，可以进行这个骚操作：f2进入bios，按住fn+tab三秒，保存退出，再次f2进入bios，就可以看见Advance选项和power选项
